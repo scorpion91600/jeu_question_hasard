@@ -1,6 +1,6 @@
 // js/config.js
-export const SUPABASE_URL      = 'https://uomtjqtidkhqfukzoiho.supabase.co';
-export const SUPABASE_ANON_KEY = 'sb_publishable_lY2CxC9Dsl6D8OmYyAS2NA_pRgmz7bm';
+export const SUPABASE_URL      = 'https://winrjanooydaydxkmola.supabase.co';
+export const SUPABASE_ANON_KEY = 'sb_publishable_lBRCkCjTEp-MSgl3KCUWJA_puKcldbq';
 
 export const TIMER_SECONDS = 90;
 export const MIN_CHARS     = 20;
