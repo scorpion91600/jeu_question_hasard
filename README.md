@@ -1,4 +1,5 @@
-## https://scorpion91600.github.io/jeu_question_hasard/
+
+🔗 **[Voir le site en ligne](https://scorpion91600.github.io/jeu_question_hasard/)**
 <img width="1920" height="1612" alt="image" src="https://github.com/user-attachments/assets/05b36998-647e-4634-a87f-36d37a0b1380" />
 
 # source.md — Projet Verdict
