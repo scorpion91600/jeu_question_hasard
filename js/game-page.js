@@ -1,6 +1,6 @@
 // js/game-page.js
 import { getRandomSubject, saveResponse } from './supabase.js';
-import { scorePlea }                       from './claude.js';
+import { scorePlea }                       from './ia.js';
 import { startTimer, formatTime, validateContent } from './game.js';
 import { getPlayer, navigateTo, showToast, setLoading } from './ui.js';
 import { MAX_CHARS } from './config.js';
