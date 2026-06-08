@@ -1,25 +1,27 @@
-/* css/base.css — reset, variables, typographie */
+/* css/base.css — reset, variables, typographie — NEOBRUTALISM */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --color-bg:           #ffffff;
-  --color-bg-secondary: #f5f4f0;
-  --color-bg-tertiary:  #eceae3;
-  --color-text:         #1a1a18;
-  --color-text-muted:   #6b6a64;
-  --color-border:       rgba(0, 0, 0, 0.12);
+  --color-bg:           #FFFBF0;
+  --color-bg-secondary: #F5F0DC;
+  --color-bg-tertiary:  #EDE8D0;
+  --color-text:         #0D0D0D;
+  --color-text-muted:   #444440;
+  --color-border:       #0D0D0D;
   --color-pour:         #0C447C;
-  --color-pour-bg:      #E6F1FB;
+  --color-pour-bg:      #BFD9F5;
   --color-contre:       #993C1D;
-  --color-contre-bg:    #FAECE7;
-  --color-accent:       #1D9E75;
-  --color-accent-bg:    #E1F5EE;
-  --color-danger:       #A32D2D;
-  --radius-sm:          6px;
-  --radius-md:          8px;
-  --radius-lg:          12px;
+  --color-contre-bg:    #F5C7B8;
+  --color-accent:       #F5C800;
+  --color-accent-bg:    #FFF5B0;
+  --color-danger:       #E02020;
+  --radius-sm:          0px;
+  --radius-md:          0px;
+  --radius-lg:          0px;
   --font:               'Inter', system-ui, sans-serif;
-  --shadow-card:        0 1px 3px rgba(0,0,0,0.08);
+  --shadow-card:        4px 4px 0px #0D0D0D;
+  --shadow-card-hover:  6px 6px 0px #0D0D0D;
+  --border-heavy:       2.5px solid #0D0D0D;
 }
 
 html { font-size: 16px; -webkit-font-smoothing: antialiased; }
@@ -27,14 +29,21 @@ html { font-size: 16px; -webkit-font-smoothing: antialiased; }
 body {
   font-family: var(--font);
   background: var(--color-bg);
+  background-image: radial-gradient(#0D0D0D 1px, transparent 1px);
+  background-size: 24px 24px;
   color: var(--color-text);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-h1, h2, h3 { line-height: 1.25; font-weight: 600; }
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
 p { line-height: 1.6; }
 
-a { color: var(--color-accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: var(--color-text); text-decoration: underline; font-weight: 600; }
+a:hover { background: var(--color-accent); text-decoration: none; }
